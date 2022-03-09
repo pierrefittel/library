@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.svg">
+    <script src="script.js" defer></script>
+    <title>Library</title>
+</head>
+<body>
+    <div class="header" id="header">
+        <button class="add-book" id="add-book">
+            +
+            <form class="book-form" id="book-form" action="post">
+                <input type="text" class="text-input" id="title" placeholder="Book title">
+                <input type="text" class="text-input" id="author" placeholder="Author">
+                <input type="text" class="text-input" id="pages" placeholder="Pages number">
+                <input type="text" class="text-input" id="summary" placeholder="Summary">
+                <div>
+                    <div class="checkbox" id="read"></div>
+                    <div>Read</div>
+                </div>
+            </form>
+            <div class="action-button">
+                <div id="add"><img src="./images/book-plus.svg" alt="add"></div>
+                <div id="reset"><img src="./images/reset.svg" alt="reset"></div>
+            </div>
+        </button>
+    </div>
+    <div class="library" id="library">
+
+    </div>
+</body>
+</html>
