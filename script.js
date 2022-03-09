@@ -38,7 +38,7 @@ function updateLibrary() {
             <div class="title">${title}</div>
             <div class="author">by ${author}</div>
             <div class="summary">${summary}</div>
-            <div class="pages">${pages}</div>
+            <div class="pages">${pages} pages</div>
             <div class="read">
                 <div>${read}</div>
                 <img class="delete" src="./images/trash-can-outline.svg" alt="delete" value="${i}">

@@ -16,7 +16,7 @@
             <form class="book-form" id="book-form" action="post">
                 <input type="text" class="text-input" id="title" placeholder="Book title">
                 <input type="text" class="text-input" id="author" placeholder="Author">
-                <input type="text" class="text-input" id="pages" placeholder="Pages number">
+                <input type="text" class="text-input" id="pages" placeholder="Pages number" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
                 <input type="text" class="text-input" id="summary" placeholder="Summary">
                 <div>
                     <div class="checkbox" id="read"></div>
