@@ -7,12 +7,16 @@ const library = document.getElementById("library");
 
 let myLibrary = [];
 
-function Book() {
-    this.title = title
-    this.author = author
-    this.pages = pages
-    this.summary = summary
-    this.read = read
+class Book {
+
+    constructor(book) {
+        this.title = title
+        this.author = author
+        this.pages = pages
+        this.summary = summary
+        this.read = read
+    }
+    
 }
 
 function addBookToLibrary(book) {
